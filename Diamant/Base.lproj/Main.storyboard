@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="15A282a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Diamant" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,89 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Diamant!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yl9-Vu-mb3">
+                                <rect key="frame" x="188" y="84" width="225" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="i3d-i8-Pfe">
+                                <rect key="frame" x="254" y="137" width="93" height="75"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="SQB-2u-1ru"/>
+                                    <constraint firstAttribute="height" constant="75" id="UR6-fn-GjI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To get started, enable Diamant under" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ya7-wF-Ia6">
+                                <rect key="frame" x="158" y="266" width="285" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Fwi-TH-ym4"/>
+                                    <constraint firstAttribute="width" constant="285" id="bcm-s5-4gS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings ➡ Safari ➡ Content Blockers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMw-5u-c0c">
+                                <rect key="frame" x="150" y="295" width="301" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="UbX-ln-XQD"/>
+                                    <constraint firstAttribute="width" constant="301" id="b6R-9H-ebx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SettingsTab" translatesAutoresizingMaskIntoConstraints="NO" id="sMt-Nq-ryn">
+                                <rect key="frame" x="158" y="326" width="285" height="68"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="A5J-dd-XPo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ier-xI-hH6">
+                                <rect key="frame" x="224" y="510" width="152" height="47"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="UAL-2n-XRk"/>
+                                    <constraint firstAttribute="width" constant="152" id="cvq-Iq-IbE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.16078431369999999" green="0.50196078430000002" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ya7-wF-Ia6" firstAttribute="centerX" secondItem="RMw-5u-c0c" secondAttribute="centerX" id="1Lc-rp-StB"/>
+                            <constraint firstItem="ya7-wF-Ia6" firstAttribute="leading" secondItem="sMt-Nq-ryn" secondAttribute="leading" id="2ml-nj-WYK"/>
+                            <constraint firstItem="i3d-i8-Pfe" firstAttribute="top" secondItem="Yl9-Vu-mb3" secondAttribute="bottom" constant="23" id="FD8-j3-Lep"/>
+                            <constraint firstItem="Yl9-Vu-mb3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="KyB-6C-GUb"/>
+                            <constraint firstItem="Ier-xI-hH6" firstAttribute="centerX" secondItem="sMt-Nq-ryn" secondAttribute="centerX" id="Kzp-nW-2F5"/>
+                            <constraint firstItem="sMt-Nq-ryn" firstAttribute="trailing" secondItem="ya7-wF-Ia6" secondAttribute="trailing" id="QaX-9B-N86"/>
+                            <constraint firstItem="i3d-i8-Pfe" firstAttribute="centerX" secondItem="Yl9-Vu-mb3" secondAttribute="centerX" id="Rar-4L-UQF"/>
+                            <constraint firstItem="ya7-wF-Ia6" firstAttribute="centerX" secondItem="i3d-i8-Pfe" secondAttribute="centerX" id="b9O-C7-QZI"/>
+                            <constraint firstItem="ya7-wF-Ia6" firstAttribute="top" secondItem="i3d-i8-Pfe" secondAttribute="bottom" constant="54" id="cSL-Ib-VK8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ier-xI-hH6" secondAttribute="bottom" constant="43" id="cpr-ed-dX2"/>
+                            <constraint firstItem="RMw-5u-c0c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="diI-Y3-xQL"/>
+                            <constraint firstItem="RMw-5u-c0c" firstAttribute="top" secondItem="ya7-wF-Ia6" secondAttribute="bottom" constant="8" symbolic="YES" id="k85-Lq-DSy"/>
+                            <constraint firstItem="sMt-Nq-ryn" firstAttribute="top" secondItem="RMw-5u-c0c" secondAttribute="bottom" constant="10" id="xR8-Mh-Mza"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="297"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SettingsTab" width="2076" height="487"/>
+        <image name="diamond" width="562" height="443"/>
+    </resources>
 </document>

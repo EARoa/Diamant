@@ -14,6 +14,9 @@
 		100D49AA1BAF2490003F5459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100D49A81BAF2490003F5459 /* LaunchScreen.storyboard */; };
 		100D49B51BAF2490003F5459 /* DiamantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D49B41BAF2490003F5459 /* DiamantTests.swift */; };
 		100D49C01BAF2490003F5459 /* DiamantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D49BF1BAF2490003F5459 /* DiamantUITests.swift */; };
+		100D49D41BAF24EB003F5459 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 100D49D31BAF24EB003F5459 /* blockerList.json */; };
+		100D49D61BAF24EB003F5459 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D49D51BAF24EB003F5459 /* ActionRequestHandler.swift */; };
+		100D49DA1BAF24EB003F5459 /* ContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 100D49D11BAF24EB003F5459 /* ContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +34,28 @@
 			remoteGlobalIDString = 100D499B1BAF2490003F5459;
 			remoteInfo = Diamant;
 		};
+		100D49D81BAF24EB003F5459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100D49941BAF2490003F5459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100D49D01BAF24EB003F5459;
+			remoteInfo = ContentBlocker;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		100D49DE1BAF24EB003F5459 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				100D49DA1BAF24EB003F5459 /* ContentBlocker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		100D499C1BAF2490003F5459 /* Diamant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diamant.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +71,10 @@
 		100D49BB1BAF2490003F5459 /* DiamantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiamantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100D49BF1BAF2490003F5459 /* DiamantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamantUITests.swift; sourceTree = "<group>"; };
 		100D49C11BAF2490003F5459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100D49D11BAF24EB003F5459 /* ContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D49D31BAF24EB003F5459 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		100D49D51BAF24EB003F5459 /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
+		100D49D71BAF24EB003F5459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +99,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		100D49CE1BAF24EB003F5459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +115,7 @@
 				100D499E1BAF2490003F5459 /* Diamant */,
 				100D49B31BAF2490003F5459 /* DiamantTests */,
 				100D49BE1BAF2490003F5459 /* DiamantUITests */,
+				100D49D21BAF24EB003F5459 /* ContentBlocker */,
 				100D499D1BAF2490003F5459 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +126,7 @@
 				100D499C1BAF2490003F5459 /* Diamant.app */,
 				100D49B01BAF2490003F5459 /* DiamantTests.xctest */,
 				100D49BB1BAF2490003F5459 /* DiamantUITests.xctest */,
+				100D49D11BAF24EB003F5459 /* ContentBlocker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +162,16 @@
 			path = DiamantUITests;
 			sourceTree = "<group>";
 		};
+		100D49D21BAF24EB003F5459 /* ContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				100D49D31BAF24EB003F5459 /* blockerList.json */,
+				100D49D51BAF24EB003F5459 /* ActionRequestHandler.swift */,
+				100D49D71BAF24EB003F5459 /* Info.plist */,
+			);
+			path = ContentBlocker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +182,12 @@
 				100D49981BAF2490003F5459 /* Sources */,
 				100D49991BAF2490003F5459 /* Frameworks */,
 				100D499A1BAF2490003F5459 /* Resources */,
+				100D49DE1BAF24EB003F5459 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				100D49D91BAF24EB003F5459 /* PBXTargetDependency */,
 			);
 			name = Diamant;
 			productName = Diamant;
@@ -181,6 +230,23 @@
 			productReference = 100D49BB1BAF2490003F5459 /* DiamantUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		100D49D01BAF24EB003F5459 /* ContentBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100D49DB1BAF24EB003F5459 /* Build configuration list for PBXNativeTarget "ContentBlocker" */;
+			buildPhases = (
+				100D49CD1BAF24EB003F5459 /* Sources */,
+				100D49CE1BAF24EB003F5459 /* Frameworks */,
+				100D49CF1BAF24EB003F5459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentBlocker;
+			productName = ContentBlocker;
+			productReference = 100D49D11BAF24EB003F5459 /* ContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,6 +267,9 @@
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = 100D499B1BAF2490003F5459;
 					};
+					100D49D01BAF24EB003F5459 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 				};
 			};
 			buildConfigurationList = 100D49971BAF2490003F5459 /* Build configuration list for PBXProject "Diamant" */;
@@ -219,6 +288,7 @@
 				100D499B1BAF2490003F5459 /* Diamant */,
 				100D49AF1BAF2490003F5459 /* DiamantTests */,
 				100D49BA1BAF2490003F5459 /* DiamantUITests */,
+				100D49D01BAF24EB003F5459 /* ContentBlocker */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +315,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100D49CF1BAF24EB003F5459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100D49D41BAF24EB003F5459 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +354,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		100D49CD1BAF24EB003F5459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100D49D61BAF24EB003F5459 /* ActionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,6 +374,11 @@
 			isa = PBXTargetDependency;
 			target = 100D499B1BAF2490003F5459 /* Diamant */;
 			targetProxy = 100D49BC1BAF2490003F5459 /* PBXContainerItemProxy */;
+		};
+		100D49D91BAF24EB003F5459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100D49D01BAF24EB003F5459 /* ContentBlocker */;
+			targetProxy = 100D49D81BAF24EB003F5459 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -398,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Diamant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = earoa.Diamant;
@@ -409,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Diamant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = earoa.Diamant;
@@ -464,6 +557,30 @@
 			};
 			name = Release;
 		};
+		100D49DC1BAF24EB003F5459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				INFOPLIST_FILE = ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = earoa.Diamant.ContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		100D49DD1BAF24EB003F5459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				INFOPLIST_FILE = ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = earoa.Diamant.ContentBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -497,6 +614,14 @@
 			buildConfigurations = (
 				100D49CB1BAF2490003F5459 /* Debug */,
 				100D49CC1BAF2490003F5459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		100D49DB1BAF24EB003F5459 /* Build configuration list for PBXNativeTarget "ContentBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100D49DC1BAF24EB003F5459 /* Debug */,
+				100D49DD1BAF24EB003F5459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
