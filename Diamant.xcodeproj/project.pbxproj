@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100D49A01BAF2490003F5459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D499F1BAF2490003F5459 /* AppDelegate.swift */; };
+		100D49A21BAF2490003F5459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D49A11BAF2490003F5459 /* ViewController.swift */; };
+		100D49A51BAF2490003F5459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100D49A31BAF2490003F5459 /* Main.storyboard */; };
+		100D49A71BAF2490003F5459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100D49A61BAF2490003F5459 /* Assets.xcassets */; };
+		100D49AA1BAF2490003F5459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100D49A81BAF2490003F5459 /* LaunchScreen.storyboard */; };
+		100D49B51BAF2490003F5459 /* DiamantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D49B41BAF2490003F5459 /* DiamantTests.swift */; };
+		100D49C01BAF2490003F5459 /* DiamantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D49BF1BAF2490003F5459 /* DiamantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		100D49B11BAF2490003F5459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100D49941BAF2490003F5459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100D499B1BAF2490003F5459;
+			remoteInfo = Diamant;
+		};
+		100D49BC1BAF2490003F5459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100D49941BAF2490003F5459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100D499B1BAF2490003F5459;
+			remoteInfo = Diamant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100D499C1BAF2490003F5459 /* Diamant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diamant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D499F1BAF2490003F5459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		100D49A11BAF2490003F5459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		100D49A41BAF2490003F5459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		100D49A61BAF2490003F5459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100D49A91BAF2490003F5459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		100D49AB1BAF2490003F5459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100D49B01BAF2490003F5459 /* DiamantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiamantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D49B41BAF2490003F5459 /* DiamantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamantTests.swift; sourceTree = "<group>"; };
+		100D49B61BAF2490003F5459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100D49BB1BAF2490003F5459 /* DiamantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiamantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D49BF1BAF2490003F5459 /* DiamantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamantUITests.swift; sourceTree = "<group>"; };
+		100D49C11BAF2490003F5459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100D49991BAF2490003F5459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100D49AD1BAF2490003F5459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100D49B81BAF2490003F5459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100D49931BAF2490003F5459 = {
+			isa = PBXGroup;
+			children = (
+				100D499E1BAF2490003F5459 /* Diamant */,
+				100D49B31BAF2490003F5459 /* DiamantTests */,
+				100D49BE1BAF2490003F5459 /* DiamantUITests */,
+				100D499D1BAF2490003F5459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100D499D1BAF2490003F5459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100D499C1BAF2490003F5459 /* Diamant.app */,
+				100D49B01BAF2490003F5459 /* DiamantTests.xctest */,
+				100D49BB1BAF2490003F5459 /* DiamantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100D499E1BAF2490003F5459 /* Diamant */ = {
+			isa = PBXGroup;
+			children = (
+				100D499F1BAF2490003F5459 /* AppDelegate.swift */,
+				100D49A11BAF2490003F5459 /* ViewController.swift */,
+				100D49A31BAF2490003F5459 /* Main.storyboard */,
+				100D49A61BAF2490003F5459 /* Assets.xcassets */,
+				100D49A81BAF2490003F5459 /* LaunchScreen.storyboard */,
+				100D49AB1BAF2490003F5459 /* Info.plist */,
+			);
+			path = Diamant;
+			sourceTree = "<group>";
+		};
+		100D49B31BAF2490003F5459 /* DiamantTests */ = {
+			isa = PBXGroup;
+			children = (
+				100D49B41BAF2490003F5459 /* DiamantTests.swift */,
+				100D49B61BAF2490003F5459 /* Info.plist */,
+			);
+			path = DiamantTests;
+			sourceTree = "<group>";
+		};
+		100D49BE1BAF2490003F5459 /* DiamantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				100D49BF1BAF2490003F5459 /* DiamantUITests.swift */,
+				100D49C11BAF2490003F5459 /* Info.plist */,
+			);
+			path = DiamantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100D499B1BAF2490003F5459 /* Diamant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100D49C41BAF2490003F5459 /* Build configuration list for PBXNativeTarget "Diamant" */;
+			buildPhases = (
+				100D49981BAF2490003F5459 /* Sources */,
+				100D49991BAF2490003F5459 /* Frameworks */,
+				100D499A1BAF2490003F5459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diamant;
+			productName = Diamant;
+			productReference = 100D499C1BAF2490003F5459 /* Diamant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100D49AF1BAF2490003F5459 /* DiamantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100D49C71BAF2490003F5459 /* Build configuration list for PBXNativeTarget "DiamantTests" */;
+			buildPhases = (
+				100D49AC1BAF2490003F5459 /* Sources */,
+				100D49AD1BAF2490003F5459 /* Frameworks */,
+				100D49AE1BAF2490003F5459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				100D49B21BAF2490003F5459 /* PBXTargetDependency */,
+			);
+			name = DiamantTests;
+			productName = DiamantTests;
+			productReference = 100D49B01BAF2490003F5459 /* DiamantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		100D49BA1BAF2490003F5459 /* DiamantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100D49CA1BAF2490003F5459 /* Build configuration list for PBXNativeTarget "DiamantUITests" */;
+			buildPhases = (
+				100D49B71BAF2490003F5459 /* Sources */,
+				100D49B81BAF2490003F5459 /* Frameworks */,
+				100D49B91BAF2490003F5459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				100D49BD1BAF2490003F5459 /* PBXTargetDependency */,
+			);
+			name = DiamantUITests;
+			productName = DiamantUITests;
+			productReference = 100D49BB1BAF2490003F5459 /* DiamantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100D49941BAF2490003F5459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Efrain Ayllon";
+				TargetAttributes = {
+					100D499B1BAF2490003F5459 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					100D49AF1BAF2490003F5459 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 100D499B1BAF2490003F5459;
+					};
+					100D49BA1BAF2490003F5459 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 100D499B1BAF2490003F5459;
+					};
+				};
+			};
+			buildConfigurationList = 100D49971BAF2490003F5459 /* Build configuration list for PBXProject "Diamant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100D49931BAF2490003F5459;
+			productRefGroup = 100D499D1BAF2490003F5459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100D499B1BAF2490003F5459 /* Diamant */,
+				100D49AF1BAF2490003F5459 /* DiamantTests */,
+				100D49BA1BAF2490003F5459 /* DiamantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100D499A1BAF2490003F5459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100D49AA1BAF2490003F5459 /* LaunchScreen.storyboard in Resources */,
+				100D49A71BAF2490003F5459 /* Assets.xcassets in Resources */,
+				100D49A51BAF2490003F5459 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100D49AE1BAF2490003F5459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100D49B91BAF2490003F5459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100D49981BAF2490003F5459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100D49A21BAF2490003F5459 /* ViewController.swift in Sources */,
+				100D49A01BAF2490003F5459 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100D49AC1BAF2490003F5459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100D49B51BAF2490003F5459 /* DiamantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100D49B71BAF2490003F5459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100D49C01BAF2490003F5459 /* DiamantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100D49B21BAF2490003F5459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100D499B1BAF2490003F5459 /* Diamant */;
+			targetProxy = 100D49B11BAF2490003F5459 /* PBXContainerItemProxy */;
+		};
+		100D49BD1BAF2490003F5459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100D499B1BAF2490003F5459 /* Diamant */;
+			targetProxy = 100D49BC1BAF2490003F5459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		100D49A31BAF2490003F5459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				100D49A41BAF2490003F5459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		100D49A81BAF2490003F5459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				100D49A91BAF2490003F5459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		100D49C21BAF2490003F5459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		100D49C31BAF2490003F5459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		100D49C51BAF2490003F5459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Diamant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = earoa.Diamant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		100D49C61BAF2490003F5459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Diamant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = earoa.Diamant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		100D49C81BAF2490003F5459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiamantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = earoa.DiamantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diamant.app/Diamant";
+			};
+			name = Debug;
+		};
+		100D49C91BAF2490003F5459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiamantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = earoa.DiamantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diamant.app/Diamant";
+			};
+			name = Release;
+		};
+		100D49CB1BAF2490003F5459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiamantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = earoa.DiamantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Diamant;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		100D49CC1BAF2490003F5459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiamantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = earoa.DiamantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Diamant;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100D49971BAF2490003F5459 /* Build configuration list for PBXProject "Diamant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100D49C21BAF2490003F5459 /* Debug */,
+				100D49C31BAF2490003F5459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100D49C41BAF2490003F5459 /* Build configuration list for PBXNativeTarget "Diamant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100D49C51BAF2490003F5459 /* Debug */,
+				100D49C61BAF2490003F5459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		100D49C71BAF2490003F5459 /* Build configuration list for PBXNativeTarget "DiamantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100D49C81BAF2490003F5459 /* Debug */,
+				100D49C91BAF2490003F5459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		100D49CA1BAF2490003F5459 /* Build configuration list for PBXNativeTarget "DiamantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100D49CB1BAF2490003F5459 /* Debug */,
+				100D49CC1BAF2490003F5459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100D49941BAF2490003F5459 /* Project object */;
+}
